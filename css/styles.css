@@ -648,22 +648,64 @@ nav.navigation {
         flex-direction: column;
         font-size: 11px;
     }
+    .menu{
+        flex-wrap: wrap;
+    }
     .services{
         padding-top: 86px;
     }
     .img-group div{
-        max-width: 130px;
+        background-size: contain;
     }
     .header__inner a{
         padding: 0;
+    }
+    .img-group div:last-child{
+        margin: 0;
     }
     .btn-newsletter{
         padding: 8px 40px;
     }
     .img-group{
-        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     .newsletter-input{
         width: 220px;
     }
+    h5.header__h5{
+        padding-bottom: 129px;
+    }
+    .header__inner a{
+        padding-bottom: 92px;
+    }
+}
+
+@media screen and (max-width: 368px){
+    .img-group div {
+        margin-top: 0;
+    }
+    .btn-newsletter {
+        padding: 4px 20px;
+        text-align: center;
+    }
+    .newsletter-input {
+        width: 180px;
+    }
+    .menu li {
+    padding-right: 10px;
+    }
+   .services {
+    padding-bottom: 0px;
+    }
+    .about-p{
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .feedback__inner {
+        padding-bottom: 195px;
+    }
+    .container{}
 }
