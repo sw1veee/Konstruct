@@ -588,7 +588,9 @@ nav.navigation {
     .text-block{
         margin: 0;
     }
-    
+    .menu li {
+    padding-right: 20px;
+    }
 }
 
 @media screen and (max-width: 850px){
@@ -616,6 +618,7 @@ nav.navigation {
     .img-group div{
         max-width: 140px;
     }
+    
 }
 
 @media screen and (max-width: 648px){
@@ -653,5 +656,14 @@ nav.navigation {
     }
     .header__inner a{
         padding: 0;
+    }
+    .btn-newsletter{
+        padding: 8px 40px;
+    }
+    .img-group{
+        gap: 10px;
+    }
+    .newsletter-input{
+        width: 220px;
     }
 }
